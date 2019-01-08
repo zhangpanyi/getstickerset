@@ -3,6 +3,8 @@ getstickerset 是一个可以下载 Telegram 贴纸集合的Bot。能够把聊�
 
 你只需要对着 Sticker 消息回复一句 `/zip`，它就会知道该工作了。
 
+![](example.png)
+
 在Telegram搜索用户 `@getsticker_bot` 或者打开链接 [http://telegram.me/getsticker_bot](http://telegram.me/getsticker_bot) 立即使用。
 
 ## 部署指南
