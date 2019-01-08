@@ -44,7 +44,7 @@ def zip_handler(bot, update):
         data = create_compressed_file(sticker.set_name, files, emojidict)
         bot.send_document(message.chat.id, data, filename=filename, reply_to_message_id=message.message_id)
     except Exception as e:
-        logging.warn('%s', str(e))
+        logging.warning('%s', str(e))
 
 def download_stickers(set_name, stickers):
     ''' download sticker set all files.

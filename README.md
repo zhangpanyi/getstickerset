@@ -32,11 +32,9 @@ sudo chmod +x /usr/local/bin/docker-compose
 ```
 git clone git@github.com:zhangpanyi/getstickerset.git
 cd getstickerset
-```
-
-打开 `docker-compose.yml` 文件，将字符串 `<Telegram bot token>` 修改为自己Bot的Token。
-
-```
 docker-compose build
+```
+打开 `docker-compose.yml` 文件，将字符串 `<Telegram bot token>` 修改为自己 Bot 的 Token。
+```
 docker-compose up -d
 ```

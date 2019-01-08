@@ -3,7 +3,7 @@ FROM python:3.7.2-alpine3.8
 COPY getstickerset.py /getstickerset.py
 
 RUN apk add build-base
-RUN apk add libffi-dev zlib-dev jpeg-dev openssl-dev
+RUN apk add libffi-dev zlib-dev jpeg-dev libwebp-dev openssl-dev
 
 RUN pip3 install webp
 RUN pip3 install Pillow
